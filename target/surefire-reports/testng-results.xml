@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-26T11:58:06 IST" name="Parallel Test" finished-at="2025-03-26T12:00:06 IST" duration-ms="120337">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-26T11:58:06 IST" name="Chrome Test" finished-at="2025-03-26T11:59:54 IST" duration-ms="108501">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:06 IST" name="setUpClass" finished-at="2025-03-26T11:58:07 IST" duration-ms="854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1c39680d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:07 IST" name="setBrowser" finished-at="2025-03-26T11:58:07 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:17 IST" duration-ms="9891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:17 IST" name="setBrowser" finished-at="2025-03-26T11:58:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:26 IST" duration-ms="8791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers and logs in successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:26 IST" name="setBrowser" finished-at="2025-03-26T11:58:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:33 IST" duration-ms="7379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs in with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:33 IST" name="setBrowser" finished-at="2025-03-26T11:58:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:40 IST" duration-ms="6789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs in with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:40 IST" name="setBrowser" finished-at="2025-03-26T11:58:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:49 IST" duration-ms="9091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:49 IST" name="setBrowser" finished-at="2025-03-26T11:58:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:57 IST" duration-ms="7846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Product Search and Add to Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:57 IST" name="setBrowser" finished-at="2025-03-26T11:58:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:58:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:12 IST" duration-ms="15015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding multiple products to cart and validating cart summary"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:12 IST" name="setBrowser" finished-at="2025-03-26T11:59:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:22 IST" duration-ms="9722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Applying a Coupon Code and Verifying Discount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:22 IST" name="setBrowser" finished-at="2025-03-26T11:59:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:36 IST" duration-ms="14144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout Process with Invalid Data Handling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:36 IST" name="setBrowser" finished-at="2025-03-26T11:59:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:54 IST" duration-ms="18693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout Process with Valid Data Handling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@5c86dbc5]" started-at="2025-03-26T11:59:54 IST" name="tearDownClass" finished-at="2025-03-26T11:59:54 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-03-26T11:58:06 IST" name="Edge Test" finished-at="2025-03-26T12:00:06 IST" duration-ms="120337">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:06 IST" name="setUpClass" finished-at="2025-03-26T11:58:07 IST" duration-ms="854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62833051]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:07 IST" name="setBrowser" finished-at="2025-03-26T11:58:07 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:18 IST" duration-ms="11352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:18 IST" name="setBrowser" finished-at="2025-03-26T11:58:18 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:29 IST" duration-ms="10693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User registers and logs in successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:29 IST" name="setBrowser" finished-at="2025-03-26T11:58:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:38 IST" duration-ms="8758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs in with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:38 IST" name="setBrowser" finished-at="2025-03-26T11:58:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:47 IST" duration-ms="8894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs in with different credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:47 IST" name="setBrowser" finished-at="2025-03-26T11:58:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:58:56 IST" duration-ms="9639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:56 IST" name="setBrowser" finished-at="2025-03-26T11:58:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:58:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:07 IST" duration-ms="10563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Product Search and Add to Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:07 IST" name="setBrowser" finished-at="2025-03-26T11:59:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:22 IST" duration-ms="14668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding multiple products to cart and validating cart summary"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:22 IST" name="setBrowser" finished-at="2025-03-26T11:59:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:33 IST" duration-ms="11033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Applying a Coupon Code and Verifying Discount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:33 IST" name="setBrowser" finished-at="2025-03-26T11:59:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T11:59:46 IST" duration-ms="13700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout Process with Invalid Data Handling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:46 IST" name="setBrowser" finished-at="2025-03-26T11:59:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T11:59:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-26T12:00:06 IST" duration-ms="19950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout Process with Valid Data Handling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Demo Web Shop Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@35b74c5c]" started-at="2025-03-26T12:00:06 IST" name="tearDownClass" finished-at="2025-03-26T12:00:06 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Parallel Test -->
+</testng-results>
